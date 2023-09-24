@@ -1,9 +1,14 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
 
-function App() {
+export default function App() {
   return (
-    <div className='text-4xl bg-green-200' >Hello World</div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" >
+        <Route index element={<HomePage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App
