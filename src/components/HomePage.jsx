@@ -11,13 +11,14 @@ const Home = () => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="stylesheet" href="./waves.css" />
         </head>
+
         <body>
           <div className="header">
             <div className="inner-header pt-52">
               <h1 className="text-4xl font-bold">Taking Steps Towards Water Sustainability</h1>
               <h3 className="py-4">Dive into Your Daily Water Consumption </h3>
               <button class="bg-gradient-to-tr from-[#023E8A] via-[#0077B6] to-[#0096C7] hover:bg-gradient-to-bl hover:scale-105 duration-200 ease-in-out text-white font-bold py-2 px-4 hover:border-blue-500 rounded">
-                Calculate Your Footprints 
+                Calculate Your Footprints to learn more 
               </button>
             </div>
 
